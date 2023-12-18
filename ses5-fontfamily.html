@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>กำหนดฟอนต์ด้วย font family</title>
+    <style>
+        @import url();
+        @font-face {
+            font-family: myfont;
+            src: url("font/salaban/THSalabanNew.ttf") format("truetype");
+        }
+        h1{
+            font-family: kanit;
+            color: orange;
+            text-shadow: 1px 1px 3px #666;
+            -webkit-text-stroke: 1px 2px 3px plum;
+        }
+        p{
+            font-family: myfont;
+            font-size: 1.5em;
+            font-style:oblique;
+            color: rgb(88,24,69);
+        }
+    </style>
+</head>
+<body>
+    <h1>กำหนดฟอนต์ด้วย font family</h1>
+    <p>การกำหนดฟอนต์ที่เหมาะสมกับตัวอักษรบนเว็บเพจ
+        เป็นส่วนหนึ่งที่ทำให้เว็บของเราดูหน้าสนใจมากขึ้น</p>
+    <h2>การกำหนดฟอนต์แบบพิเศษด้วย @font-face</h2>
+    <p>
+       เป็นคุณสมบัติที่เราสามารถเลือกใช้งานฟอนต์ได้อิสระมากขึ้น 
+    </p>   
+    <div>
+      รูปแบบการใช้งาน font ภายนอกโดยการดึงฟอนต์มาจาก goole font
+    </div> 
+</body>
+</html>
